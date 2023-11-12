@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bsv Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="flex-body">
+
+    <div class="box">
+        <table class="table table-bordered">
+            <tbody>
+                <tr>
+                    <td class="heading-td">
+                        <h2>Market Cost </h2>
+                    </td>
+                    <td class="td-0">
+                        <table class="table insider-table">
+                            <thead>
+                                <tr>
+                                    <th>Therapy</th>
+                                    <th>e-ATG + EPAG + CsA</th>
+                                    <th>e-ATG + CsA</th>
+                                    <th>EPAG + CsA</th>
+                                    <th>CsA</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="first-tr">
+                                    <td>
+                                        <b>Thymogam Cost (L)</b>
+                                        <span class="small">Considering 40 vials for <br /> 60 kg wt patient</span>
+                                    </td>
+                                    <td><b id="thymocostval1">5.5</b></td>
+                                    <td><b id="thymocostval2">5.5</b></td>
+                                    <td><b>-</b></td>
+                                    <td><b>-</b></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>EPAG</b>
+                                        <span class="small">Cost for 6 months (L)</span>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt1" />
+                                        </div>
+                                    </td>
+                                    <td class="center-td"><b>-</b></td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt2" />
+                                        </div>
+                                    </td>
+                                    <td class="center-td"><b>-</b></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>CsA </b>
+                                        <span class="small">Cost for 6 months (L)</span>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt3" />
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt4" />
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt5" />
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt6" />
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Market Total Cost (L)</b>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt7" readonly
+                                                disabled />
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt8" readonly
+                                                disabled />
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt9" readonly
+                                                disabled />
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt10" readonly
+                                                disabled />
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr class="second-tr">
+                    <td class="heading-td"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="heading-td">
+                        <h2>
+                            <img src="./img/logo.png" alt="logo" class="img-fluid center-logo" />
+                            <br />
+                            OFFERING
+                        </h2>
+                    </td>
+                    <td class="td-0">
+                        <table class="table insider-table bsv-section">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <b>Thymogam % PAP</b>
+                                        <!-- <span class="small">Total Cost (L)</span> -->
+                                    </td>
+                                    <td>
+                                        <select class="form-select" id="comboBox1" name="comboBox1">
+                                            <option>0</option>
+                                            <option>10</option>
+                                            <option>20</option>
+                                            <option>30</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="form-select" id="comboBox2" name="comboBox2">
+                                            <option>0</option>
+                                            <option>10</option>
+                                            <option>20</option>
+                                            <option>30</option>
+                                        </select>
+                                    </td>
+                                    <td><b>-</b></td>
+                                    <td><b>-</b></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Thymogam</b>
+                                        <span class="small">Cost Post PAP (L)</span>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt11">
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt12">
+                                        </div>
+                                    </td>
+                                    <td><b>-</b></td>
+                                    <td><b>-</b></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Revugam 50 mg </b>
+                                        <span class="small">Cost for 6 months post PAP</span>
+                                    </td>
+                                    <td><b id="revugamval1">0.69</b></td>
+                                    <td><b>-</b></td>
+                                    <td><b id="revugamval2">0.69</b></td>
+                                    <td><b>-</b></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Oncyclo 100 mg</b>
+                                        <span class="small">Cost for 6 months post PAP</span>
+                                    </td>
+                                    <td><b id="oncycloval1">0.21</b></td>
+                                    <td><b id="oncycloval2">0.21</b></td>
+                                    <td><b id="oncycloval3">0.21</b></td>
+                                    <td><b id="oncycloval4">0.21</b></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>BSVwithU Total Cost (L)</b>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt13" readonly
+                                                disabled>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt14" readonly
+                                                disabled>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt15" readonly
+                                                disabled>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="number" value="" class="form-control" id="txt16" readonly
+                                                disabled>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <b>Saving to Patients (L)</b>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="text" value="" class="form-control" id="txt17" readonly
+                                                disabled>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="text" value="" class="form-control" id="txt18" readonly
+                                                disabled>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="text" value="" class="form-control" id="txt19" readonly
+                                                disabled>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="form-group">
+                                            <input type="text" value="" class="form-control" id="txt20" readonly
+                                                disabled>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="1"></td>
+                                    <td colspan="4" class="refresh-wrapper">
+                                        <button type="button" class="btn btn-primary" id="refresh-btn">Refresh</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+<script src="js/jquery.min.js" defer></script>
+<!-- <script src="js/bootstrap.bundle.min.js" defer></script> -->
+<script src="js/app.js" defer></script>
+
+</html>
