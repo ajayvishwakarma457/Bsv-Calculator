@@ -2,7 +2,7 @@
 
 A dynamic and user-friendly cost comparison tool that enables healthcare professionals to compare **market therapy costs** with **BSVwithU** program offerings. The calculator provides instant savings insights and helps in clinical and financial decision-making for patient care.
 
-![BSV Cost Calculator Screenshot](./screenshot.png)
+![BSV Cost Calculator Screenshot](./screenshoot.png)
 
 ---
 
