@@ -43,3 +43,8 @@ A modern web browser — no setup or installation needed for basic use.
     open index.html  # (macOS)
     start index.html # (Windows)
 
+
+## 📬 Contact
+**Author:** Ajay M Vishwakarma  
+**Email:** ajayvishwakarma457@gmail.com
+
